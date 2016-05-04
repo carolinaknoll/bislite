@@ -9,34 +9,36 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
 
     <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
   </head>
 
   <body>
-    <main>
+    <header>
       <nav class="navbar navbar-default">
         <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">BisLite</a>
+            <a class="navbar-brand" href="#">Bis<span>Lite</span></a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
 
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
+              <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">ABOUT US</a></li>
 
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICES <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Web Design</a></li>
                   <li><a href="#">Wordpress Design</a></li>
@@ -47,28 +49,31 @@
               </li>
 
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Project Alpha</a></li>
                   <li><a href="#">Project Beta</a></li>
                 </ul>
               </li>
 
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Contact Us</a></li>
-
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACT US</a></li>
             </ul>
+
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container -->
       </nav>
+    </header>
 
-      <section class="content">
-        This is a test text!
-      </section>
 
-      <footer class="footer">
-      </footer>
-    </main>
+    <section class="content">
+      This is a test text!
+    </section>
+
+    <footer class="footer">
+    </footer>
+
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </body>
 </html>

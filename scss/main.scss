@@ -3,3 +3,37 @@
 body {
   background-color: #4F86C6;
 }
+
+.navbar {
+  background-color: #e8ebf1;
+  height: 120px;
+
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+}
+
+.navbar-header .navbar-brand {
+  font-family: 'Lato';
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.navbar-brand span {
+  color: #2aacc8;
+  font-weight: normal;
+}
+
+.navbar-header a,
+.navbar-nav a {
+  color: #000 !important;
+  font-family: 'Arial';
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li a:active {
+  border-top: 4px solid #2aacc8 !important;
+}
