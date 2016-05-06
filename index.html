@@ -16,55 +16,90 @@
   </head>
 
   <body>
-    <header>
-      <nav class="navbar navbar-default">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Bis<span>Lite</span></a>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Bis<span>Lite</span></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+
+            <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">ABOUT US</a></li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICES <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Wordpress Design</a></li>
+                <li><a href="#">Mobile App Development</a></li>
+                <li><a href="#">Internet Marketing</a></li>
+                <li><a href="#">Social Media Management</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Project Alpha</a></li>
+                <li><a href="#">Project Beta</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT US</a></li>
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <header class="header">
+      <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
+
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/home/header-bg.png" alt="First slide">
+            </div>
+
+            <div class="item">
+              <img src="img/home/header-bg.png" alt="Second slide">
+            </div>
+
+            <div class="item">
+              <img src="img/home/header-bg.png" alt="Third slide">
+            </div>
+
+            <div class="item">
+              <img src="img/home/header-bg.png" alt="Fourth slide">
+            </div>
+
+            <div class="item">
+              <img src="img/home/header-bg.png" alt="Fifth slide">
+            </div>
           </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-
-              <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">ABOUT US</a></li>
-
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICES <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Web Design</a></li>
-                  <li><a href="#">Wordpress Design</a></li>
-                  <li><a href="#">Mobile App Development</a></li>
-                  <li><a href="#">Internet Marketing</a></li>
-                  <li><a href="#">Social Media Management</a></li>
-                </ul>
-              </li>
-
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PORTFOLIO <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Project Alpha</a></li>
-                  <li><a href="#">Project Beta</a></li>
-                </ul>
-              </li>
-
-              <li><a href="#">BLOG</a></li>
-              <li><a href="#">CONTACT US</a></li>
-            </ul>
-
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container -->
-      </nav>
+        </div>
+      </div>
     </header>
-
 
     <section class="content">
       This is a test text!

@@ -12,6 +12,9 @@ body {
   flex-wrap: nowrap;
   align-items: center;
   align-content: center;
+
+  margin-bottom: 0;
+  border-bottom: 1px solid #6ec2ca;
 }
 
 .navbar-header .navbar-brand {
@@ -36,4 +39,30 @@ body {
 .navbar-nav li a:hover,
 .navbar-nav li a:active {
   border-top: 4px solid #2aacc8 !important;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  background: #81e4ed no-repeat 50% 50%;
+  background-size: cover;
+  max-height: 500px;
+  min-height: 500px;
+  margin-top: 0;
+}
+
+.carousel-inner .item:after {
+    content: "";
+    height: inherit;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.carousel {
+    display: inline-block;
+    vertical-align: middle;
 }
