@@ -1,7 +1,13 @@
-/* sample css to test the scss to css compiler */
 body {
-  background-color: #4F86C6; }
+  background-color: #4F86C6;
+  font-family: 'Arial'; }
 
+h4 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: #000; }
+
+/* Website Navigation */
 .navbar {
   background-color: #e8ebf1;
   height: 120px;
@@ -32,6 +38,7 @@ body {
 .navbar-nav li a:active {
   border-top: 4px solid #2aacc8 !important; }
 
+/* Header, with carousel */
 .header {
   display: flex;
   flex-wrap: nowrap;
@@ -53,5 +60,46 @@ body {
 .carousel {
   display: inline-block;
   vertical-align: middle; }
+
+/* Middle section */
+.middle-section {
+  min-height: 300px;
+  background: #e8ebf1;
+  background-size: cover;
+  width: 100%;
+  position: relative; }
+
+.middle-section .row {
+  padding-top: 10px; }
+
+.middle-section .column {
+  padding-bottom: 20px; }
+
+.middle-section .column-title .fa {
+  font-size: 20px;
+  color: #FFF;
+  border-radius: 90%;
+  background: #2aacc8;
+  width: 40px;
+  height: 40px;
+  line-height: 2.0;
+  text-align: center;
+  margin-right: 20px; }
+
+.middle-section .column-title {
+  line-height: 2.5;
+  font-size: 15px; }
+
+.middle-section a .fa {
+  font-size: 10px;
+  color: #000; }
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  .middle-section .row {
+    padding-top: 30px; } }
+@media screen and (min-width: 992px) {
+  .middle-section .row {
+    padding-top: 60px; } }
 
 /*# sourceMappingURL=main.css.map */
