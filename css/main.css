@@ -67,7 +67,8 @@ h4 {
   background: #e8ebf1;
   background-size: cover;
   width: 100%;
-  position: relative; }
+  position: relative;
+  border-bottom: 1px solid #d9d9d9; }
 
 .middle-section .row {
   padding-top: 10px; }
@@ -93,6 +94,29 @@ h4 {
 .middle-section a .fa {
   font-size: 10px;
   color: #000; }
+
+/* Latest Works */
+.latest-works {
+  min-height: 280px;
+  background: #FFF;
+  background-size: cover;
+  width: 100%;
+  position: relative; }
+
+.section-title {
+  font-size: 15px;
+  padding: 20px 0;
+  border-bottom: 1px solid #d9d9d9; }
+
+.section-title .fa {
+  font-size: 20px;
+  color: #2aacc8;
+  margin-right: 10px; }
+
+.owl-carousel {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d9d9d9; }
 
 /* Media Queries */
 @media screen and (min-width: 768px) {

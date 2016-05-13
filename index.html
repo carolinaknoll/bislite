@@ -11,6 +11,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
 
     <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
   </head>
@@ -141,10 +142,30 @@
       </div>
     </div>
 
+    <div class="latest-works">
+      <div class="container">
+        <h4 class="section-title"><i class="fa fa-mouse-pointer"></i> LATEST WORKS</h4>
+
+        <div class="owl-carousel">
+          <div> <img src="img/home/latest-works-img1.png" alt="First slide"> </div>
+          <div> <img src="img/home/latest-works-img2.png" alt="Second slide"> </div>
+          <div> <img src="img/home/latest-works-img3.png" alt="Third slide"> </div>
+          <div> <img src="img/home/latest-works-img4.png" alt="Fourth slide"> </div>
+        </div>
+      </div>
+    </div>
+
     <footer class="footer">
     </footer>
 
     <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+      $(".owl-carousel").owlCarousel();
+      });
+    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>
