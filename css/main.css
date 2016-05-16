@@ -153,12 +153,57 @@ h4 {
   list-style: none;
   display: inline-block; }
 
+/* Blue download box */
+.bottom-box {
+  min-height: 180px;
+  background: #FFF;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  padding: 40px 0; }
+
+.blue-box {
+  margin: auto;
+  min-height: 140px;
+  width: 100%;
+  background: #e8fcfe;
+  background-size: cover;
+  border: 1px solid #81e4ed; }
+
+.blue-box .row .column {
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+.blue-box p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px; }
+
+.download-button {
+  margin: 10px;
+  height: 60px;
+  width: 210px;
+  box-shadow: 0 8px 16px -6px #666; }
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
   .middle-section .row {
-    padding-top: 30px; } }
+    padding-top: 30px; }
+
+  .blue-box .download-button {
+    width: 240px; } }
 @media screen and (min-width: 992px) {
   .middle-section .row {
-    padding-top: 60px; } }
+    padding-top: 60px; }
+
+  .blue-box p {
+    margin: 0 30px; }
+
+  .blue-box .row .column {
+    padding: 30px; } }
 
 /*# sourceMappingURL=main.css.map */
